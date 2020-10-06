@@ -1,0 +1,11 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Strategy\\": "Patterns/Strategy",
+            "Feature\\": "tests/Feature"
+        }
+    }
+}
